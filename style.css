@@ -1,7 +1,7 @@
  :root{
-    --bg-color: #121212;
-    --surface-color: #1e1e1e;
-    --accent-color: #ff0022;
+    --bg-color: #bfbfbf;
+    --surperficie-color: #1e1e1e;
+    --destaque-color: #ff0022;
  }
  .projects-grid{
     display: grid;
@@ -16,26 +16,44 @@
  }
  h1{
             font-size: 20px;
-            color: red;
+            color: var(--destaque-color);
         }
   h1{
             font-weight: 900;
         }
   body{
     background-color: var(--bg-color);
-    color: #e0e0e0;
+    color: var(--surperficie-color);
   } 
   p{
-    color: #e0e0e0;
+    color: var(--surperficie-color);
   }         
   .texto-destaque{
     font-weight: bold;
-    color: #00ffcc;
+    color: var(--destaque-color);
   }
   .botao-primario{
     padding: 10px 20px;
     border-radius: 5px;
+    
   }
+ .article{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+ }
+ .rodape-principal {
+  background-color: var(--bg-color);
+  color: var(--surperficie-color);            
+  padding: 30px 20px;       
+  font-family: sans-serif;
+}
+
+
+ 
   #titulo-principal{
     font-size: 2.5rem;
     text-align: center;
