@@ -1,0 +1,45 @@
+ :root{
+    --bg-color: #121212;
+    --surface-color: #1e1e1e;
+    --accent-color: #ff0022;
+ }
+ .projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+ }
+ @media (max-width: 600px){
+    .header .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+ }
+ h1{
+            font-size: 20px;
+            color: red;
+        }
+  h1{
+            font-weight: 900;
+        }
+  body{
+    background-color: var(--bg-color);
+    color: #e0e0e0;
+  } 
+  p{
+    color: #e0e0e0;
+  }         
+  .texto-destaque{
+    font-weight: bold;
+    color: #00ffcc;
+  }
+  .botao-primario{
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  #titulo-principal{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #enviar{
+    margin-top: 20px;
+  }
