@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <title>Rosa</title>
+  <rect width="400" height="300" fill="#fce4ec"/>
+  <rect x="197" y="120" width="6" height="180" fill="#2e7d32"/>
+  <ellipse cx="172" cy="200" rx="30" ry="12" fill="#43a047" transform="rotate(-25 172 200)"/>
+  <ellipse cx="228" cy="230" rx="30" ry="12" fill="#43a047" transform="rotate(25 228 230)"/>
+  <g fill="#e53935">
+    <circle cx="200" cy="80" r="28"/>
+    <circle cx="230" cy="105" r="28"/>
+    <circle cx="218" cy="138" r="28"/>
+    <circle cx="182" cy="138" r="28"/>
+    <circle cx="170" cy="105" r="28"/>
+  </g>
+  <circle cx="200" cy="112" r="30" fill="#c62828"/>
+  <circle cx="202" cy="110" r="18" fill="#b71c1c"/>
+  <circle cx="204" cy="108" r="8" fill="#8e0000"/>
+</svg>
