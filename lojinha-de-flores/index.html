@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojinha de Flores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="inicio">
+        <h1>Lojinha de Flores</h1>
+        <nav>
+            <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#promocoes">Promoções</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>
+            A <strong>Lojinha de Flores</strong> nasceu do amor de uma família pelas plantas.
+            Cultivamos e selecionamos flores frescas todos os dias para transformar
+            momentos especiais em lembranças inesquecíveis.
+        </p>
+        <p>
+            Trabalhamos com buquês, arranjos e vasos para presentes, aniversários,
+            casamentos e decoração de ambientes.
+        </p>
+        </section>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="lista-produtos">
+                <article class="produto">
+                    <img src="img/violeta.svg" alt="Ilustração de um vaso de violetas roxas">
+                    <h3>Violeta</h3>
+                    <p>Delicada e fácil de cuidar, a violeta traz harmonia para qualquer ambiente.</p>
+                    <p class="preco">R$ 24,90</p>
+                </article>
+                <article class="produto">
+                    <img src="img/rosa.svg" alt="Ilustração de uma rosa vermelha">
+                    <h3>Rosa</h3>
+                    <p>O clássico símbolo do amor. Perfeita para declarações e datas especiais.</p>
+                    <p class="preco">R$ 12,90</p>
+                </article>
+                <article class="produto">
+                    <img src="img/girassol.svg" alt="Ilustração de um girassol amarelo">
+                    <h3>Girassol</h3>
+                     <p>Alegria em forma de flor: ilumina o dia de quem recebe.</p>
+                     <p class="preco">R$ 18,50</p>
+                </article>
+                <article class="produto">
+                    <img src="img/tulipa.svg" alt="Ilustração de uma tulipa flor-de-rosa">
+                    <h3>Tulipa</h3>
+                    <p>Elegante e colorida, ideal para arranjos modernos.</p>
+                    <p class="preco">R$ 21,00</p>
+                </article>
+            </div>
+        </section>
+        <section id="promocoes">
+            <h2>Promoções da Semana</h2>
+            <div class="lista-produtos">
+             <article class="produto promocao">
+                <span class="selo">-20%</span>
+                    <img src="img/tulipa.svg" alt="Ilustração de uma tulipa flor-de-rosa">
+                    <h3>Tulipa</h3>
+                    <p>Elegante e colorida, ideal para arranjos modernos.</p>
+                    <del>R$ 25,00</del>
+                    <p class="preco"> Por R$ 21,00</p>
+                </article>
+                <article class="produto promocao">
+                    <span class="selo">-15%</span>
+                    <img src="img/girassol.svg" alt="Ilustração de um girassol amarelo">
+                    <h3>Girassol</h3>
+                     <p>Alegria em forma de flor: ilumina o dia de quem recebe.</p>
+                     <del>R$ 21,00</del>
+                     <p class="preco">R$ 18,50</p>
+                </article>
+                <article class="produto promocao">
+                    <span class="selo">-30%</span>
+                    <img src="img/rosa.svg" alt="Ilustração de uma rosa vermelha">
+                    <h3>Rosa</h3>
+                    <p>O clássico símbolo do amor. Perfeita para declarações e datas especiais.</p>
+                    <del>R$ 17,00</del>
+                    <p class="preco">R$ 12,90</p>
+                </article>
+
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+             <p>Quer encomendar um arranjo especial? Envie sua mensagem!</p>
+
+             <form action="#" method="get">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="voce@exemplo.com" required>
+
+                <label for="ocasiao">Ocasião:</label>
+                <select id="ocasiao" name="ocasiao">
+                     <option value="presente">Presente</option>
+                    <option value="aniversario">Aniversário</option>
+                    <option value="casamento">Casamento</option>
+                    <option value="decoracao">Decoração</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Conte o que você precisa..." required></textarea>
+
+                <button type="submit">Enviar</button>
+             </form>
+        </section>
+        <footer>
+            <p>&copy; 2026 Lojinha de Flores. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+    
+</body>
+</html>
