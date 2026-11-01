@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Troco</title>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1>Calculadora de Troco</h1>
+
+  <label for="compra">Valor da compra (R$):</label>
+  <input
+    type="text"
+    id="compra"
+    placeholder="Ex.: 45,90"
+    inputmode="decimal"
+  >
+
+  <br><br>
+
+  <label for="pago">Valor pago (R$):</label>
+  <input
+    type="text"
+    id="pago"
+    placeholder="Ex.: 100,00"
+    inputmode="decimal"
+  >
+
+  <br><br>
+
+  <button id="calcular">Calcular troco</button>
+
+  <h2>Resultado</h2>
+  <div id="resultado" aria-live="polite"></div>
+
+</body>
+</html>

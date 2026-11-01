@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Analisador de Triângulos</title>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <h1>Analisador de Triângulos</h1>
+
+  <p>Informe as medidas dos três lados, em metros:</p>
+
+  <label for="ladoA">Lado A:</label>
+  <input type="text" id="ladoA" placeholder="Ex.: 3,5"
+         inputmode="decimal">
+
+  <br><br>
+
+  <label for="ladoB">Lado B:</label>
+  <input type="text" id="ladoB" placeholder="Ex.: 4"
+         inputmode="decimal">
+
+  <br><br>
+
+  <label for="ladoC">Lado C:</label>
+  <input type="text" id="ladoC" placeholder="Ex.: 5"
+         inputmode="decimal">
+
+  <br><br>
+
+  <button id="calcular">Analisar triângulo</button>
+
+  <h2>Resultado</h2>
+
+  <div id="resultado" aria-live="polite"></div>
+
+</body>
+</html>
