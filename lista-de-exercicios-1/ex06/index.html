@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Analisador de Senhas</title>
+
+  <script src="script.js" defer></script>
+
+  <style>
+    .fraca {
+      color: red;
+    }
+
+    .media {
+      color: orange;
+    }
+
+    .forte {
+      color: green;
+    }
+
+    #resultado {
+      white-space: pre-line;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Analisador de Senhas</h1>
+
+  <label for="senha">Digite sua senha:</label>
+
+  <input
+    type="password"
+    id="senha"
+    placeholder="Digite sua senha"
+    autocomplete="off"
+  >
+
+  <h2>Diagnóstico da senha</h2>
+
+  <div id="resultado" aria-live="polite">
+    Digite uma senha para iniciar a análise.
+  </div>
+
+</body>
+</html>

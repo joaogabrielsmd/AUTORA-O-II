@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analisador de Contraste WCAG</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    .cor {
+      width: 100px;
+      height: 50px;
+      border: 1px solid black;
+      margin-top: 8px;
+    }
+
+    #amostra {
+      padding: 20px;
+      margin-top: 15px;
+      border: 1px solid black;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <h1>Analisador de Contraste WCAG 2.2</h1>
+
+  <section>
+    <label for="seletorCor">Escolha uma cor:</label>
+    <input type="color" id="seletorCor" value="#336699">
+  </section>
+
+  <section>
+    <h2>Informações da cor</h2>
+    <p>Hexadecimal: <span id="hexadecimal"></span></p>
+    <p>Inteiro decimal: <span id="inteiro"></span></p>
+    <p>Representação binária: <span id="binario"></span></p>
+
+    <p>Canal R: <span id="canalR"></span></p>
+    <p>Canal G: <span id="canalG"></span></p>
+    <p>Canal B: <span id="canalB"></span></p>
+
+    <p>Luminância relativa: <span id="luminancia"></span></p>
+  </section>
+
+  <section>
+    <h2>Contraste</h2>
+    <p>Contraste com branco: <span id="contrasteBranco"></span></p>
+    <p>Contraste com preto: <span id="contrastePreto"></span></p>
+    <p>Cor de texto recomendada: <span id="corTexto"></span></p>
+    <p>Resultado WCAG AA: <span id="resultadoAA"></span></p>
+  </section>
+
+  <section>
+    <h2>Cor complementar</h2>
+    <p>Hexadecimal: <span id="complementar"></span></p>
+    <div id="amostraComplementar" class="cor"></div>
+  </section>
+
+  <section>
+    <h2>Amostra de texto</h2>
+    <div id="amostra">
+      Exemplo de texto para verificar o contraste.
+    </div>
+  </section>
+
+</body>
+</html>
